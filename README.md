@@ -4,4 +4,4 @@ Code and data (where possible) for gene-set enrichment analyses of schizophrenia
 
 Analyses of exome sequenced data including QC were performed using Hail 0.2 (Hail Team. Hail 0.2.62-84fa81b9ea3d. https://github.com/hail-is/hail/commit/84fa81b9ea3d). 
 
-QC generally followed those described here: https://astheeggeggs.github.io/BipEx/index.html and here: https://github.com/andgan/ultra_rare_pheno_spectrum 
+QC of exome data generally followed those described here: https://astheeggeggs.github.io/BipEx/index.html and here: https://github.com/andgan/ultra_rare_pheno_spectrum 
