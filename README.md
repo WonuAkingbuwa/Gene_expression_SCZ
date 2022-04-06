@@ -1,4 +1,4 @@
-# Analyses of gene set enrichment in schizophrenia-associated common and (ultra)-rare variants
+# Analyses of gene set enrichment in schizophrenia-associated common and (ultra-)rare variants
 
 Code and data (where possible) for gene-set enrichment analyses of schizophrenia-associated common and (ultra-)rare variants descbribed in paper: https://www.medrxiv.org/content/10.1101/2021.05.26.21257794v2  
 
