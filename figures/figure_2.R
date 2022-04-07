@@ -427,7 +427,7 @@ nudge1 <- position_nudge(x = .1, y = 0)
 nudge2 <- position_nudge(x = -.1, y = 0)
 
 #PI and brain gene sets 
-tiff('urv_rv_scz.tiff',width=5500,height=8000,res=600)
+tiff('figure_2.tiff',width=5500,height=8000,res=600)
 ggplot(merged_genesets, aes(y=beta_urv, x=NEW_NAME)) + 
   scale_colour_manual( name="Data", values=c("1" = "#E7B800","2" = "#CC79A7"), labels = c("Rare variants", "Ultra-rare variants")) + 
   
@@ -458,7 +458,7 @@ ggplot(merged_genesets, aes(y=beta_urv, x=NEW_NAME)) +
 dev.off()
 
 #syngo gene sets 
-tiff('urv_rv_scz_syngo.tiff',width=5500,height=8000,res=600)
+tiff('figure_2_syngo.tiff',width=5500,height=8000,res=600)
 ggplot(merged_genesets_syngo, aes(y=beta_urv, x=NEW_NAME)) + 
   scale_colour_manual( name="Data", values=c("1" = "#E7B800","2" = "#CC79A7"), labels = c("Rare variants", "Ultra-rare variants")) + 
   
