@@ -407,7 +407,7 @@ library(ggpubr)
 
 theme_set(theme_light())
 
-#tiff('scz_urv_vs_common_plot_both.tiff',width=7500,height=5500,res=600)
+#tiff('figure_3.tiff',width=7500,height=5500,res=600)
 jpeg('figure_3.jpeg',width=10000,height=9000,res=950)
 ggplot(merged_genesets, aes(x = beta, y = beta_common, size = weights)) + #make point size proportional to weights
  geom_point(aes(color = category), alpha = 0.5) +#colour points by geneset type (category)
