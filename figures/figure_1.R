@@ -238,7 +238,7 @@ library(ggplot2)
 theme_set(theme_light())
 
 #plot to match (U)RV plot - ngenes in brackets next to gene set names 
-tiff('common_scz.tiff',width=4000,height=6500,res=600)
+tiff('figure_1.tiff',width=4000,height=6500,res=600)
 ggplot(SCZ_geneset, aes(y=BETA, x=paste0(FULL_NAME, " (",paste0(NGENES), ")"))) + 
   geom_point(color="#00AFBB", size=2.5) +
   geom_errorbar(aes(ymin=BETA-1.96*SE, ymax=BETA+1.96*SE), width=.2,color="#00AFBB") +
@@ -266,7 +266,7 @@ ggplot(SCZ_geneset, aes(y=BETA, x=paste0(FULL_NAME, " (",paste0(NGENES), ")"))) 
 dev.off()
 
 #syngo
-tiff('common_scz_syngo.tiff',width=4000,height=6500,res=600)
+tiff('figure_1_syngo.tiff',width=4000,height=6500,res=600)
 ggplot(SCZ_geneset_syngo, aes(y=BETA, x=paste0(FULL_NAME, " (",paste0(NGENES), ")"))) + 
   geom_point(color="#00AFBB", size=2.5) +
   geom_errorbar(aes(ymin=BETA-1.96*SE, ymax=BETA+1.96*SE), width=.2,color="#00AFBB") +
